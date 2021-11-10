@@ -47,6 +47,9 @@ body {
 .text-item:focus {
   color: #2196f3;
 }
+.header-link.current {
+  color: #2196f3;
+}
 
 .text-item {
   font-family: Roboto;
@@ -61,6 +64,8 @@ body {
   background: #2f303a;
 }
 .hero-title {
+  font-family: Roboto;
+  font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
   letter-spacing: 0.06em;
@@ -68,15 +73,17 @@ body {
   color: #ffffff;
 }
 .hero-btn {
+  cursor: pointer;
+  background-color: #2196f3;
+  font-family: inherit;
+  font-style: normal;
   font-weight: 700;
   font-size: 16px;
-  line-height: 1.87;
-  display: flex;
-  align-items: center;
-  text-align: center;
+  line-height: 1.88;
   letter-spacing: 0.06em;
   color: #ffffff;
-  background-color: #2196f3;
+  border: 0;
+  border-radius: 4px;
 }
 .title-features {
   font-style: normal;
@@ -188,12 +195,17 @@ body {
 }
 /*---------------PORTFOLIO--------*/
 .list-btn {
-  width: 145px;
-  height: 38px;
-  left: 712px;
-  top: 174px;
+  border: 0;
   background: #f5f4fa;
   border-radius: 4px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  letter-spacing: 0.03em;
+
+  color: #212121;
 }
 .list-btn:hover {
   color: #ffffff;
